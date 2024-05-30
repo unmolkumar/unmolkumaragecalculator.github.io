@@ -1,0 +1,69 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:poppins;
+}
+.container{
+  background:Linear-gradient(135deg,#2D3FFF ,#2579FF);
+  width:100%;
+  height:100vh
+}
+#age{
+  font-size:1em;
+  color:#FDFF00E8;
+}
+#name{
+  position:relative;
+  top:25px;
+  margin-left:60px;
+  color:white;
+  text-shadow:1px 1px 0px black,-1px -1px 0px black;
+  font-weight:bold;
+  font-size:3em;
+}
+#sname{
+  position:relative;
+  top:25px;
+  margin-left:63px;
+  text-shadow:1px 1px 0px black,-1px -1px 0px black;
+  font-weight:bold;
+  color:#FDFF00E8;
+  font-size:1.6em;
+}
+#box{
+  position: relative;
+  display:flex;
+  top:65px;
+  width:60%;
+  padding:30px;
+  margin-left:60px;
+  border-radius:15px;
+  justify-content:space-around;
+  background-color:#FFFFFF85
+}
+#btn{
+  width:25%;
+  padding:6px;
+  border:1px solid #FDFF0069;
+  border-radius:8px;
+  background-color:#FDFF00D1
+}
+#birthdayz{
+  width:60%;
+  padding:6px;
+  border-radius:8px;
+  border:none;
+  box-shadow:1px 1px 2px lightgray, -1px -1px 2px gray;
+}
+#btn:hover{
+  background-color: #FDFF00;
+  cursor:pointer;
+}
+#result{
+  font-family:poppins;
+  color:white;
+  display:inline-block;
+  position:relative;
+  left:70px;
+  height:30px;
+}
